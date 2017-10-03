@@ -1,4 +1,4 @@
-package br.com.brunomaomeh.model
+package br.com.brunomaomeh.domain
 
 class Hotel {
     private long id

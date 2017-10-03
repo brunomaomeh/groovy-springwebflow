@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.0.0.M4'
+        springBootVersion = '2.0.0.BUILD-SNAPSHOT'
     }
     repositories {
         mavenCentral()
@@ -31,7 +31,7 @@ repositories {
 dependencies {
 //    compile('org.springframework.boot:spring-boot-starter-groovy-templates')
     compile('org.springframework.boot:spring-boot-starter-webflux')
-    compile('org.springframework.boot:spring-boot-starter-reactor-netty')
+//    compile('org.springframework.boot:spring-boot-starter-reactor-netty')
     // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
     compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.12'
 
